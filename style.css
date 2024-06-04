@@ -70,6 +70,7 @@ section .img2 {
     border-radius: 10px;
 }
 
+/* cambio de imagenes con el hover */
 section .img2 {
     display: none;
 }
@@ -80,5 +81,5 @@ section:hover .img1{
 
 section:hover .img2{
     display: block;
-    transition: .5s;
 }
+/* Fin de cambio de imagenes con el hover */
