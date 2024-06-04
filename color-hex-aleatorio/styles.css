@@ -6,8 +6,9 @@
 
 body{
     height: 100vh;
-    background-color: #2B907B;
+    background-color: #0A3A40;
     text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .center-flex{
@@ -33,11 +34,11 @@ body{
 #btn-color{
     font-size: 30px;
     color: white;
-    background-color: #2B907B;
+    background-color: #0A3A40;
     border-radius: 12px;
     margin: 15px;
     padding: 10px 30px;
-    border: 3px solid #2B907B;
+    border: 3px solid #0A3A40;
     user-select: none;
     transition-duration: .3s;
     cursor: pointer;
@@ -45,5 +46,5 @@ body{
 
 #btn-color:hover{
     background-color: white;
-    color: #2B907B;
+    color: #0A3A40;
 }
