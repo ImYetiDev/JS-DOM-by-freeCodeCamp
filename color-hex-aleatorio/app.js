@@ -1,5 +1,6 @@
 const boton = document.querySelector('button');
 const color = document.getElementById('color');
+const btnVolver = document.getElementById('volver');
 
 function generarColor() {
   let digitos = '0123456789ABCDEF';
@@ -14,4 +15,8 @@ boton.addEventListener('click', () => {
   let nuevoColor = generarColor();
   color.textContent = nuevoColor;
   document.body.style.backgroundColor = nuevoColor;
+});
+
+btnVolver.addEventListener('click', () => {
+  location.href = '../index.html';
 });

@@ -18,11 +18,11 @@ body{
 }
 
 #container{
-    height: 220px;
+    height: 300px;
     width: 450px;
     background-color: white;
     border: 5px solid black;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
 }
 
@@ -31,7 +31,7 @@ body{
     font-weight: bold;
 }
 
-#btn-color{
+.btn{
     font-size: 30px;
     color: white;
     background-color: #0A3A40;
@@ -44,7 +44,7 @@ body{
     cursor: pointer;
 }
 
-#btn-color:hover{
+.btn:hover{
     background-color: white;
     color: #0A3A40;
 }
